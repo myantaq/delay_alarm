@@ -1,12 +1,3 @@
-/*
-	5V電源時
-		パイロットランプ消灯時 6uA
-		パイロットランプ点灯時 20uA
-
-	単4マンガン電池 450mAh
-		450mAh / 20uA = 22500h = 937days
-		警報を鳴らさなければ電池寿命二年以上
-*/
 #include<avr/io.h>
 #include<avr/sleep.h>
 #include<avr/interrupt.h>
